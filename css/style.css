@@ -11,15 +11,27 @@ section {
     width: 100vw;
 }
 
-/* section 1 */
-
-#red {
-    background-color: red;
-    position: relative;
+/* buttons */
+.buttons {
+    position: fixed;
+    top: 15px;
+    right: 3px;
+    z-index: 2;
 }
+a { 
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 15px;
+    z-index: 2;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
 .shoes img {
     width: 75%;
 }
+
 h2 {
     font-weight: 800;
     font-size: 50px;
@@ -34,12 +46,20 @@ h2 {
     text-align: center;
 }
 
+/* section 1 */
+
+#red {
+    background-color: red;
+    position: relative;
+}
+
 /* section 2 */
 
 #green {
     background-color: green;
     position: relative;
 }
+
 /* section 3 */
 
 #yellow {
